@@ -1,0 +1,14 @@
+.ico {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.ico_tabClose {
+    background: url("../images/tab_close.png") no-repeat center top;
+    width: 10px;
+    height: 10px;
+    &:hover {
+        background-position: center bottom;
+    }
+}
